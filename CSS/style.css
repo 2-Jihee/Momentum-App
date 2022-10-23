@@ -11,6 +11,19 @@ img {
     z-index: -1;
 }
 
+#weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#weather > span{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    color: white;
+}
+
 .center-contents{
     display: flex;
     flex-direction: column;
