@@ -11,12 +11,21 @@ img {
     z-index: -1;
 }
 
-#clock {
+.center-contents{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+}
+
+#clock {
     margin: 0;
     color: white;
-    font-size: 8rem;
+    font-size: 1050%;
+
+}
+
+#greeting {
+    color: white;
+    font-size: 54px;
 }
