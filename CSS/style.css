@@ -50,6 +50,13 @@ img {
     align-items: center;
 }
 
+li {
+    list-style: square;
+    color: white;
+    font-size: 36px;
+}
+
+
 #quote {
     display: flex;
     flex-direction: column;
